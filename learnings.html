@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Log - Hellooo World!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        h1 {
+            color: #38f9d7;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .log-entry {
+            border-left: 4px solid #43e97b;
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .entry-title {
+            color: #333;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .learnings {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .learnings li {
+            color: #555;
+            font-size: 1.1rem;
+            padding: 0.5rem 0;
+            padding-left: 2rem;
+            position: relative;
+        }
+        
+        .learnings li:before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateY(-3px);
+        }
+        
+        .emoji {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">📚</div>
+        <h1>Learning Log</h1>
+        
+        <div class="log-entry">
+            <div class="date">February 1, 2026</div>
+            <div class="entry-title">🎓 What I Learned Today</div>
+            <ul class="learnings">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Domain registration & DNS</li>
+                <li>Netlify deployment</li>
+                <li>GitHub version control</li>
+                <li>Connecting services together</li>
+                <li>Debugging like a pro</li>
+            </ul>
+        </div>
+        
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>
