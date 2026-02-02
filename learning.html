@@ -57,23 +57,25 @@
             margin-bottom: 1rem;
         }
         
-        .learnings {
-            list-style: none;
-            padding-left: 0;
+        .section {
+            margin-bottom: 1.5rem;
         }
         
-        .learnings li {
+        .section-title {
+            color: #43e97b;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
             color: #555;
-            font-size: 1.1rem;
-            padding: 0.5rem 0;
-            padding-left: 2rem;
-            position: relative;
+            line-height: 1.8;
         }
         
-        .learnings li:before {
-            content: "✨";
-            position: absolute;
-            left: 0;
+        li {
+            margin-bottom: 0.3rem;
         }
         
         .back-link {
@@ -118,14 +120,66 @@
         <div class="log-entry">
             <div class="date">February 1, 2026</div>
             <div class="entry-title">🎓 What I Learned Today</div>
-            <ul class="learnings">
-                <li>HTML, CSS, JavaScript</li>
-                <li>Domain registration & DNS</li>
-                <li>Netlify deployment</li>
-                <li>GitHub version control</li>
-                <li>Connecting services together</li>
-                <li>Debugging like a pro</li>
-            </ul>
+            
+            <div class="section">
+                <div class="section-title">💻 HTML, CSS & JavaScript</div>
+                <ul>
+                    <li>Learned how HTML structures content (headings, buttons, links)</li>
+                    <li>Understood CSS styling (colors, fonts, animations, gradients) - Claude built it, I saw how it works</li>
+                    <li>Watched JavaScript add interactivity (button clicks, dynamic emojis)</li>
+                    <li>Studied working animations using @keyframes by reading the code</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🌐 Domain Registration & DNS</div>
+                <ul>
+                    <li>Independently registered hellooowwworld.com through Squarespace</li>
+                    <li>Followed Claude's guidance to configure nameservers</li>
+                    <li>Learned about DNS propagation through troubleshooting together</li>
+                    <li>Successfully connected custom domain to live website</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🚀 Netlify Deployment</div>
+                <ul>
+                    <li>Dragged and dropped files to deploy via Netlify (with much trial and error!)</li>
+                    <li>Debugged folder structure issues - Claude helped identify the problem</li>
+                    <li>Configured custom domain settings with step-by-step guidance</li>
+                    <li>Set up continuous deployment from GitHub together</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🔧 GitHub Version Control</div>
+                <ul>
+                    <li>Created my first GitHub repository</li>
+                    <li>Uploaded files and learned what commits are</li>
+                    <li>Connected GitHub to Netlify - Claude walked me through each step</li>
+                    <li>Now understand how auto-deploy works in professional workflows</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🔗 Connecting Services Together</div>
+                <ul>
+                    <li>Orchestrated Squarespace + Netlify + GitHub (with heavy guidance!)</li>
+                    <li>Learned how services communicate - Claude explained webhooks and APIs</li>
+                    <li>Built a real professional development pipeline by following instructions</li>
+                    <li>Understood the "why" behind each connection through collaboration</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🐛 Debugging Like a Pro</div>
+                <ul>
+                    <li>Hit 404 errors repeatedly - Claude helped diagnose file structure issues</li>
+                    <li>Figured out .html vs .txt file format problems together</li>
+                    <li>Worked through DNS configuration and deployment bugs as a team</li>
+                    <li>Learned that getting stuck and problem-solving IS the learning process</li>
+                </ul>
+            </div>
         </div>
         
         <a href="index.html" class="back-link">← Back to Home</a>
