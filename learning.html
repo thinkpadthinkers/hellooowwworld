@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Log - Hellooo World!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        h1 {
+            color: #38f9d7;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .log-entry {
+            border-left: 4px solid #43e97b;
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .entry-title {
+            color: #333;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .section {
+            margin-bottom: 1.5rem;
+        }
+        
+        .section-title {
+            color: #43e97b;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        li {
+            margin-bottom: 0.3rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateY(-3px);
+        }
+        
+        .emoji {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">📚</div>
+        <h1>Learning Log</h1>
+        
+        <div class="log-entry">
+            <div class="date">February 1, 2026</div>
+            <div class="entry-title">🎓 What I Learned Today</div>
+            
+            <div class="section">
+                <div class="section-title">💻 HTML, CSS & JavaScript</div>
+                <ul>
+                    <li>Learned how HTML structures content (headings, buttons, links)</li>
+                    <li>Understood CSS styling (colors, fonts, animations, gradients) - Claude built it, I saw how it works</li>
+                    <li>Watched JavaScript add interactivity (button clicks, dynamic emojis)</li>
+                    <li>Studied working animations using @keyframes by reading the code</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🌐 Domain Registration & DNS</div>
+                <ul>
+                    <li>Independently registered hellooowwworld.com through Squarespace</li>
+                    <li>Followed Claude's guidance to configure nameservers</li>
+                    <li>Learned about DNS propagation through troubleshooting together</li>
+                    <li>Successfully connected custom domain to live website</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🚀 Netlify Deployment</div>
+                <ul>
+                    <li>Dragged and dropped files to deploy via Netlify (with much trial and error!)</li>
+                    <li>Debugged folder structure issues - Claude helped identify the problem</li>
+                    <li>Configured custom domain settings with step-by-step guidance</li>
+                    <li>Set up continuous deployment from GitHub together</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🔧 GitHub Version Control</div>
+                <ul>
+                    <li>Created my first GitHub repository</li>
+                    <li>Uploaded files and learned what commits are</li>
+                    <li>Connected GitHub to Netlify - Claude walked me through each step</li>
+                    <li>Now understand how auto-deploy works in professional workflows</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🔗 Connecting Services Together</div>
+                <ul>
+                    <li>Orchestrated Squarespace + Netlify + GitHub (with heavy guidance!)</li>
+                    <li>Learned how services communicate - Claude explained webhooks and APIs</li>
+                    <li>Built a real professional development pipeline by following instructions</li>
+                    <li>Understood the "why" behind each connection through collaboration</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">🐛 Debugging Like a Pro</div>
+                <ul>
+                    <li>Hit 404 errors repeatedly - Claude helped diagnose file structure issues</li>
+                    <li>Figured out .html vs .txt file format problems together</li>
+                    <li>Worked through DNS configuration and deployment bugs as a team</li>
+                    <li>Learned that getting stuck and problem-solving IS the learning process</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="log-entry">
+            <div class="date">February 17, 2026</div>
+            <div class="entry-title">🛠️ Solving the Claude Code Git Integration Issue</div>
+
+            <div class="section">
+                <div class="section-title">⚙️ The Problem</div>
+                <ul>
+                    <li>Claude Code requires Git to work locally</li>
+                    <li>After downloading Git for Windows, Claude Code still showed an error</li>
+                    <li>Error message: "Git is required for local sessions"</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🔍 Debugging & Troubleshooting</div>
+                <ul>
+                    <li>First instinct: restart the application - this often solves installation issues</li>
+                    <li>Used Git Bash terminal to locate the Git installation path</li>
+                    <li>Ran `which git` command to find the executable location</li>
+                    <li>Made a typo initially (`which get` instead of `which git`) - caught and corrected it</li>
+                    <li>Learned that command precision matters - one letter changes everything!</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">💡 Key Learning: Path Conversion</div>
+                <ul>
+                    <li>Git Bash uses Unix-style paths: `/mingw64/bin/git`</li>
+                    <li>Windows system variables need Windows-style paths: `C:\Program Files\Git\bin\bash.exe`</li>
+                    <li>Understanding the difference between Unix and Windows path formats is crucial</li>
+                    <li>Tools like Git Bash create a Unix environment on Windows, but system variables stay Windows-native</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎯 The Solution</div>
+                <ul>
+                    <li>Claude Code specifically needs the path to `bash.exe`, not `git.exe`</li>
+                    <li>Environment variable: `CLAUDE_CODE_GIT_BASH_PATH` points to `C:\Program Files\Git\bin\bash.exe`</li>
+                    <li>After setting the environment variable, Claude Code needs to be fully restarted</li>
+                    <li>The environment variable persists after restart, allowing the application to find Git</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🧠 Broader Lessons</div>
+                <ul>
+                    <li>Installation issues often have simple fixes - restart is always worth trying first</li>
+                    <li>Environment variables are how applications find dependencies on your system</li>
+                    <li>Different operating systems (Windows vs Unix/Linux/Mac) have different conventions</li>
+                    <li>Error messages guide you toward solutions - they tell you what's missing and what to fix</li>
+                    <li>Getting stuck is normal - methodical troubleshooting always wins</li>
+                    <li>Small typos (get vs git) can completely change outcomes - attention to detail matters</li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>
