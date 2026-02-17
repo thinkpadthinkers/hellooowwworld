@@ -195,6 +195,114 @@
             📦 <strong>Site Snapshots:</strong> Want to see how the site looked on a specific date? <a href="v0.1-feb-17/learning.html" class="archive-link">View v0.1 (Feb 17, 2026) →</a>
         </div>
 
+        <!-- February 17, 2026 (Night) Entry - Batch Commits -->
+        <div class="log-entry">
+            <button class="date-button open" onclick="toggleEntry(this)">February 17, 2026 (Night - Batch Commits)</button>
+            <div class="entry-content open">
+                <div class="entry-title">⚡ Efficient Workflow: Batch Commits & Site Updates</div>
+
+                <div class="section">
+                    <div class="section-title">🎯 The Challenge</div>
+                    <ul>
+                        <li>Made many small changes and pushed after each one = tons of deploys</li>
+                        <li>Hit Netlify bandwidth limits from excessive rebuilds</li>
+                        <li>Realized: need to batch changes for efficiency</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">💡 The Solution: Batch Commits</div>
+                    <ul>
+                        <li>Make edits locally and commit WITHOUT pushing</li>
+                        <li>Batch multiple commits together</li>
+                        <li>Push once = ONE deploy instead of multiple</li>
+                        <li>Result: Much faster, fewer builds, less bandwidth waste</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🔄 The Process We Used</div>
+                    <ul>
+                        <li><strong>Change 1:</strong> Remove celebratory message from homepage</li>
+                        <li>Committed locally: `git commit -m "Remove celebratory message from homepage"`</li>
+                        <li><strong>Change 2:</strong> Remove footer text from homepage</li>
+                        <li>Committed locally: `git commit -m "Remove footer text from homepage"`</li>
+                        <li><strong>Change 3:</strong> Add profile image to about page</li>
+                        <li>Created images/ folder for asset organization</li>
+                        <li>Added image with CSS styling for nice presentation</li>
+                        <li>Committed locally: `git commit -m "Add profile image to about page"`</li>
+                        <li><strong>Final Step:</strong> Pushed all 3 commits at once: `git push origin main`</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">📁 Best Practice: Asset Organization</div>
+                    <ul>
+                        <li>Created `images/` folder at project root</li>
+                        <li>All images stored in one place for easy management</li>
+                        <li>HTML references images: `<img src="images/about.jpg" alt="...">`</li>
+                        <li>Scalable structure - can add `css/`, `js/` folders later</li>
+                        <li>Each site version has its own images/ copy</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🎨 Profile Image Implementation</div>
+                    <ul>
+                        <li>Added CSS class `.profile-image` with responsive sizing</li>
+                        <li>Image width: 100% with max-width: 300px (responsive)</li>
+                        <li>Rounded corners (border-radius: 15px) for modern look</li>
+                        <li>Box shadow for depth and visual interest</li>
+                        <li>Positioned at top of about page above title</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">💾 Git Workflow Mastery</div>
+                    <ul>
+                        <li>Understanding the difference: commit vs push</li>
+                        <li>Commits are local snapshots (safe, can make many)</li>
+                        <li>Push sends commits to GitHub (triggers Netlify deploy)</li>
+                        <li>Batch committing = batch pushing = single deploy</li>
+                        <li>This prevents Netlify bandwidth overages</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🚀 Deployment Impact</div>
+                    <ul>
+                        <li>Old workflow: 1 edit → 1 commit → 1 push → 1 deploy (wasteful!)</li>
+                        <li>New workflow: 3 edits → 3 commits → 1 push → 1 deploy (efficient!)</li>
+                        <li>Reduced rebuild time by batching changes together</li>
+                        <li>Saved bandwidth and deployment credits on Netlify</li>
+                        <li>Upgraded Netlify plan to Personal ($9.99/month) for peace of mind</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🎓 Key Takeaways</div>
+                    <ul>
+                        <li>Professional developers batch changes, not push after every edit</li>
+                        <li>Understanding deployment systems prevents cost overruns</li>
+                        <li>Small optimizations add up (fewer builds = faster, cheaper)</li>
+                        <li>Git is powerful: local commits are safe and don't affect live site</li>
+                        <li>File organization (images/, css/, js/) matters from day one</li>
+                        <li>Responsive images important for user experience across devices</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">✨ What's Different Now</div>
+                    <ul>
+                        <li>Homepage is cleaner (removed celebratory messages and footer)</li>
+                        <li>About page has profile image at the top for personalization</li>
+                        <li>Better workflow going forward = more sustainable development</li>
+                        <li>Understanding the "why" behind each change</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <!-- February 17, 2026 (Evening) Entry - Updated -->
         <div class="log-entry">
             <button class="date-button open" onclick="toggleEntry(this)">February 17, 2026 (Evening Update)</button>
