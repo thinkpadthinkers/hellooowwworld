@@ -195,9 +195,103 @@
             📦 <strong>Site Snapshots:</strong> Want to see how the site looked on a specific date? <a href="v0.1-feb-17/learning.html" class="archive-link">View v0.1 (Feb 17, 2026) →</a>
         </div>
 
-        <!-- February 17, 2026 Entry -->
+        <!-- February 17, 2026 (Evening) Entry - Updated -->
         <div class="log-entry">
-            <button class="date-button open" onclick="toggleEntry(this)">February 17, 2026</button>
+            <button class="date-button open" onclick="toggleEntry(this)">February 17, 2026 (Evening Update)</button>
+            <div class="entry-content open">
+                <div class="entry-title">🎨 Building a Site Versioning System</div>
+
+                <div class="section">
+                    <div class="section-title">💡 The Idea</div>
+                    <ul>
+                        <li>Wanted to preserve snapshots of the site as it evolved over time</li>
+                        <li>Goal: Let visitors see what the site looked like on specific dates</li>
+                        <li>Use case: Share your learning journey with others by showing progress</li>
+                        <li>Hidden from main navigation - only accessible via Learning Log</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🔧 Implementation Approach</div>
+                    <ul>
+                        <li>Chose static folder approach over Git tags (simpler to manage now)</li>
+                        <li>Created v0.1-feb-17/ folder with complete site snapshot</li>
+                        <li>Each version is self-contained with all pages: index, about, projects, learning</li>
+                        <li>Internal links within each version stay within that folder</li>
+                        <li>Added version badges (📦 v0.1 • Feb 17, 2026) to each page</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🎯 What Got Built</div>
+                    <ul>
+                        <li>Created v0.1-feb-17/index.html - Homepage snapshot with version badge</li>
+                        <li>Created v0.1-feb-17/about.html - About page snapshot</li>
+                        <li>Created v0.1-feb-17/projects.html - Projects page snapshot</li>
+                        <li>Created v0.1-feb-17/learning.html - Complete learning log snapshot with link back to current</li>
+                        <li>Updated current learning.html with archive link to v0.1</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🎓 Learning About Versioning</div>
+                    <ul>
+                        <li>Version numbers follow semantic versioning: v0.1, v0.2, etc.</li>
+                        <li>Snapshots preserve the exact state of the site at a point in time</li>
+                        <li>Self-contained versions prevent confusion - visitors don't accidentally blend old and new content</li>
+                        <li>Version badges help visitors understand they're looking at an archived version</li>
+                        <li>Static folders are easy to implement and maintain</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">💻 Technical Details</div>
+                    <ul>
+                        <li>URL structure: /v0.1-feb-17/index.html (mirrors main site structure)</li>
+                        <li>Each version can be navigated independently</li>
+                        <li>Easy to add new versions in the future: v0.2-march-01/, v0.3-april-15/, etc.</li>
+                        <li>Can pivot to Git tags later without rewriting current implementation</li>
+                        <li>Committed all files to GitHub for backup and documentation</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">✨ Future Possibilities</div>
+                    <ul>
+                        <li>Could add a "timeline" page showing all versions with screenshots</li>
+                        <li>Could compare two versions side-by-side to see changes</li>
+                        <li>Could add Git tags to document versions in repository history</li>
+                        <li>As you learn more, you'll have visual proof of your progress!</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🎉 Site Improvements Today</div>
+                    <ul>
+                        <li>Added collapsible learning log entries (click dates to expand/collapse)</li>
+                        <li>Reversed entry order so newest entries appear first</li>
+                        <li>Created versioned snapshots for historical browsing</li>
+                        <li>Added smooth animations for better UX</li>
+                        <li>Each version has consistent styling with version badges</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">🧠 Big Picture Insights</div>
+                    <ul>
+                        <li>Professional developers track versions of their sites/apps constantly</li>
+                        <li>Versioning systems help you see your growth over time</li>
+                        <li>Organization matters - clear folder structure makes everything easier</li>
+                        <li>Think about user experience - version badges and clear navigation help people understand what they're looking at</li>
+                        <li>Keep it simple at first, upgrade complexity later as needed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- February 17, 2026 (Original) Entry -->
+        <div class="log-entry">
+            <button class="date-button" onclick="toggleEntry(this)">February 17, 2026 (Morning)</button>
             <div class="entry-content open">
                 <div class="entry-title">🛠️ Solving the Claude Code Git Integration Issue</div>
 
