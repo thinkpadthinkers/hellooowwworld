@@ -132,6 +132,20 @@
             margin-bottom: 1rem;
         }
 
+        .version-badge {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+        }
+
         .version-note {
             margin-top: 2rem;
             padding: 1rem;
@@ -140,27 +154,6 @@
             border-radius: 5px;
             color: #555;
             font-size: 0.95rem;
-        }
-
-        .archive-note {
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: #ffe8f0;
-            border-left: 4px solid #fa709a;
-            border-radius: 5px;
-            color: #555;
-            font-size: 0.95rem;
-        }
-
-        .archive-link {
-            color: #fa709a;
-            font-weight: 600;
-            text-decoration: none;
-            transition: opacity 0.3s ease;
-        }
-
-        .archive-link:hover {
-            opacity: 0.8;
         }
 
         @keyframes slideIn {
@@ -187,13 +180,10 @@
     </style>
 </head>
 <body>
+    <div class="version-badge">📦 v0.1 • Feb 17, 2026</div>
     <div class="container">
         <div class="emoji">📚</div>
         <h1>Learning Log</h1>
-
-        <div class="archive-note">
-            📦 <strong>Site Snapshots:</strong> Want to see how the site looked on a specific date? <a href="v0.1-feb-17/learning.html" class="archive-link">View v0.1 (Feb 17, 2026) →</a>
-        </div>
 
         <!-- February 17, 2026 Entry -->
         <div class="log-entry">
@@ -405,7 +395,7 @@
         </div>
 
         <div class="version-note">
-            💡 <strong>Tip:</strong> Click on any date to expand or collapse that day's learnings. This page will grow as you continue learning!
+            💡 <strong>This is a snapshot from February 17, 2026</strong> - The site has evolved since then! <a href="../../learning.html" style="color: #43e97b; font-weight: 600;">View the current version →</a>
         </div>
 
         <a href="index.html" class="back-link">← Back to Home</a>
