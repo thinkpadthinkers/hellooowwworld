@@ -273,6 +273,51 @@
                     <li>Learned the difference between local changes, commits, and pushes</li>
                 </ul>
             </div>
+
+            <div class="section">
+                <div class="section-title">🎯 Troubleshooting GitHub Authentication</div>
+                <ul>
+                    <li>Created a new "Projects" page with a rocket emoji 🚀 and placeholder text</li>
+                    <li>Added Projects button to the navigation on the home page</li>
+                    <li>Tried to push changes but hit authentication errors with HTTPS</li>
+                    <li>Jarad installed GitHub CLI (and verified it was actually installed!)</li>
+                    <li>Ran `gh auth login` and successfully authenticated with GitHub</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🔍 Debugging a Branch Mismatch Issue</div>
+                <ul>
+                    <li>Files were committed locally but not appearing on GitHub</li>
+                    <li>Claude discovered the real issue: GitHub repo uses "main" but we were pushing to "master"</li>
+                    <li>GitHub CLI helped identify the default branch mismatch</li>
+                    <li>Forced pushed from local "master" branch to remote "main" branch</li>
+                    <li>Verified all files were finally on GitHub using the GitHub API</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🏆 Key Learnings from Today</div>
+                <ul>
+                    <li>GitHub has a concept of "default branches" - older repos use "master", newer ones use "main"</li>
+                    <li>Branch mismatches can silently fail - files don't appear where you expect them</li>
+                    <li>GitHub CLI is a powerful tool that can diagnose repo issues and authenticate securely</li>
+                    <li>Force push is a dangerous tool but sometimes necessary when dealing with branch conflicts</li>
+                    <li>Persistence pays off - troubleshooting took time but we solved it!</li>
+                    <li>Reading error messages carefully is the first step to fixing problems</li>
+                    <li>Sometimes the solution isn't in the code - it's in the configuration</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">✨ What This Means</div>
+                <ul>
+                    <li>Your website now has a fully automated workflow: edit → commit → push → live!</li>
+                    <li>The Projects page is live and ready for you to add real projects later</li>
+                    <li>You now understand Git, GitHub, authentication, and deployment better than most beginners</li>
+                    <li>YOU did the hard part - staying curious and troubleshooting when things didn't work</li>
+                </ul>
+            </div>
         </div>
 
         <a href="index.html" class="back-link">← Back to Home</a>
